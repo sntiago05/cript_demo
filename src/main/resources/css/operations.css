@@ -1,0 +1,27 @@
+
+.button {
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 8, 0.2, 3, 4);
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 15, 0.2, 3, 4);
+}
+
+.button-buy {
+    -fx-background-color: #198754;
+}
+
+.button-cell {
+    -fx-background-color: #dc3545;
+}
+
+
+.button-buy:hover {
+    -fx-background-color: #125b3a;
+}
+
+.button-cell:hover {
+    -fx-background-color: #b02e3a;
+}
